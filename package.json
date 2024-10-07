@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.20.0",
+    "hono": "^4.6.3",
+    "http-exception": "^0.0.2",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "logger": "^0.0.1",
+    "prisma": "^5.20.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.7"
+  }
+}
