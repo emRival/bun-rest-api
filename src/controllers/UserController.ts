@@ -1,6 +1,7 @@
 import { Context, Hono } from "hono";
 import { z } from "zod";
 import prisma from "../../prisma/client";
+import sharp from "sharp";
 
 import { sign } from "hono/jwt";
 
@@ -168,3 +169,4 @@ export const login = async (ctx: Context) => {
     );
   }
 };
+
